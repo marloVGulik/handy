@@ -1,0 +1,69 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+button {
+    font-family: 'Archivo', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.main {
+    width: 1000px;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #222931;
+}
+.navbar>ul {
+    height: 50px;
+}
+.navbar>ul>li {
+    margin: 0;
+    display: inline-block;
+}
+.navbar>ul>li>button {
+    border: none;
+    color: inherit;
+    background-color: inherit;
+    height: 50px;
+}
+.navbar>ul>li:hover {
+    background-color: #ffe718;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.drop {
+    border: none;
+    height: 100%;
+    background-color: #222931;
+}
+.dropContent {
+    position: absolute;
+    display: none;
+    background-color: #222931;
+}
+.dropContent>button {
+    height: 26px;
+    border: none;
+    background-color: inherit;
+    width: 100%;
+    color: #FFFFFF;
+}
+.dropdown:hover .dropContent {
+    background-color: #222931;
+    display: block;
+}
+.dropdown:hover>.dropcontent>button:hover {
+    background-color: #ffe718;
+}
+.dropdown:hover .drop {
+    background-color: #ffe718;
+}
