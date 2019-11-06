@@ -23,6 +23,9 @@ button {
 }
 
 /* Navbar */
+.logo {
+    margin: 15px 0 0 0;
+}
 .navbar {
     margin: 0 2.5%;
     width: 95%;
@@ -36,7 +39,7 @@ button {
     filter: invert(100%);
     background-size: cover;
     width: 10px;
-    height: 10px;
+    height: 12px;
 }
 .navbar>ul {
     height: 50px;
@@ -47,6 +50,7 @@ button {
     display: inline-block;
 }
 .navbar>ul>li>button {
+    font-size: 12px;
     border: none;
     color: inherit;
     background-color: inherit;
@@ -62,6 +66,7 @@ button {
     display: inline-block;
 }
 .drop {
+    font-size: 12px;
     border: none;
     height: 100%;
     background-color: #222931;
@@ -79,6 +84,7 @@ button {
     color: #FFFFFF;
 }
 .dropdown:hover .dropContent {
+    font-size: 16px;
     background-color: #222931;
     display: block;
 }
@@ -114,6 +120,22 @@ button {
     margin: 0 15px;
     width: 300px;
 }
+.small>button {
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 600;
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    color: #FFFFFF00;
+    background-color: #00000000;
+    padding: 0;
+    margin: 0 15px;
+}
+.small>button:hover {
+    background-color: #00000080;
+    color: #FFFFFFFF;
+}
 
 /* Yellow bar */
 .yellowBar {
@@ -128,19 +150,37 @@ button {
     margin: 0 0 50px 0;
 }
 .yellowBar>button {
+    position: absolute;
+    left: 1000px;
+    bottom: 50px;
     background-color: #FFFFFF;
     height: 40px;
     margin: auto 0 auto 10%;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
     color: #000000;
 }
 .yellowBar>button:hover {
-    background-color: #5f656d;
+    background-color: #222931;
+    color: #FFFFFF;
 }
 .yellowBar>h1 {
+    position: absolute;
+    bottom: 60px;
+    font-size: 34px;
+    line-height: 24px;
+    font-weight: 700;
     width: 400px;
     margin: auto 0 auto 20%;
 }
 .yellowBar>p {
+    position: absolute;
+    bottom: 54px;
+    left: 700px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
     width: 200px;
     margin: auto 10px;
 }
@@ -158,6 +198,13 @@ button {
     width: 300px;
     height: 100px;
 }
+.navbar2>button:hover {
+    background-color: #222931;
+    color: #FFFFFF;
+}
+.navbar2>button:hover>img {
+    filter: invert(100%);
+}
 .navbar2>button>img {
     float: left;
     margin:  18px 12px;
@@ -165,7 +212,15 @@ button {
     height: 64px;
 }
 .navbar2>button>h2 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
     align-content: initial;
+}
+.navbar2>button>p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
 }
 .navbar2>:nth-child(2)>img {
     float: left;
@@ -196,6 +251,16 @@ button {
 .main-text>:nth-child(1) { 
     width: 600px;
 }
+.main-text>:nth-child(1)>h2 {
+    font-size: 34px;
+    line-height: 18px;
+    font-weight: 600;
+}
+.main-text>:nth-child(1)>p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
 .main-text>:nth-child(2) { 
     width: 400px;
 }
@@ -203,6 +268,9 @@ button {
     position: absolute;
     text-align: left;
     display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
     width: 15%;
     height: 80px;
     margin:  20px;
@@ -270,8 +338,13 @@ button {
 .footer {
     background-color: #222931;
     width: 100%;
-    height: 50px;
+    height: 60px;
     left: 0;
     top: 1400px;
     position: relative;
+}
+.footer>p {
+    position: absolute;
+    margin: 20px 40px;
+    right: 40px;
 }
