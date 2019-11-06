@@ -26,6 +26,15 @@ button {
     height: 50px;
     background-color: #222931;
 }
+.icon-down-point {
+    mask-size: cover;
+    display: inline-block;
+    background-image: url(../icons/angle-down-solid.svg);
+    filter: invert(100%);
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+}
 .navbar>ul {
     height: 50px;
 }
@@ -98,7 +107,7 @@ button {
     top: 448px;
 }
 .small>img {
-    margin: 0 12.5px;
+    margin: 0 15px;
     width: 300px;
 }
 
@@ -117,23 +126,54 @@ button {
 .yellowBar>button {
     background-color: #FFFFFF;
     height: 40px;
-    margin: auto 0 auto 20%;
+    margin: auto 0 auto 10%;
     color: #000000;
 }
 .yellowBar>button:hover {
     background-color: #5f656d;
 }
 .yellowBar>h1 {
+    width: 400px;
     margin: auto 0 auto 20%;
 }
 .yellowBar>p {
+    width: 200px;
     margin: auto 10px;
 }
 
 /* Second nav bar */
-.navbar {
-
+.navbar2 {
+    position: absolute;
+    top: 1170px;
 }
-.navbar>button {
+.navbar2>button {
     background-color: #ffe718;
+    text-align: left;
+    color: #000000;
+    margin: 0 15px;
+    width: 300px;
+    height: 100px;
 }
+.navbar2>button>img {
+    float: left;
+    margin:  18px 12px;
+    width: 64px;
+    height: 64px;
+}
+.navbar2>button>h2 {
+    align-content: initial;
+}
+.navbar2>:nth-child(2)>img {
+    float: left;
+    margin: 28px 12px;
+    width: 44px;
+    height: 44px;
+}
+.navbar2>:nth-child(3)>img {
+    float: left;
+    margin: 24px 12px;
+    width: 52px;
+    height: 52px;
+}
+
+/* Main text part */
