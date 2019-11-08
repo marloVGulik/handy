@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="nl">
     <head>
+        <meta charset="UTF-8">            
+        <title>Home</title>
         <link rel="stylesheet" type="text/css" href="data/css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet"> 
     </head>
@@ -8,52 +11,52 @@
             <img class="logo" src="data/images/logo.jpg" alt="logo.jpg">
             <nav class="navbar">
                 <ul>
-                    <li><button href="#">Home</button></li>
+                    <li><button onclick="window.location.href = 'index.html'">Home</button></li>
                     <li><div class="dropdown">
                         <button class="drop">Over ons</button>
                         <span class="icon-down-point"></span>
                         <div class="dropContent">
-                            <button href="">Geschiedenis</button>
-                            <button href="">Deals</button>
-                            <button href="">Diensten</button>
+                            <button onclick="window.location.href = '#'">Geschiedenis</button>
+                            <button onclick="window.location.href = '#'">Deals</button>
+                            <button onclick="window.location.href = 'services.html'">Diensten</button>
                         </div>
                     </div></li>
-                    <li><button href="#">Portfolio</button></li>
-                    <li><button herf="#">Nieuws</button></li>
-                    <li><button herf="#">Contact</button></li>
+                    <li><button onclick="window.location.href = '#'">Portfolio</button></li>
+                    <li><button onclick="window.location.href = '#'">Nieuws</button></li>
+                    <li><button onclick="window.location.href = '#'">Contact</button></li>
                 </ul>
             </nav>
-            <img class="large1" src="data/images/header.jpg">
+            <img class="large1" src="data/images/header.jpg" alt="header.jpg">
             <div class="small">
                 <button>Geschiedenis</button>
-                <img src="data/images/banner-1.jpg">
+                <img src="data/images/banner-1.jpg" alt="banner-1.jpg">
                 <button>Deals</button>
-                <img src="data/images/banner-2.jpg">
-                <button>Diensten</button>
-                <img src="data/images/banner-3.jpg">
+                <img src="data/images/banner-2.jpg" alt="banner-2.jpg">
+                <button onclick="window.location.href = 'services.html'">Diensten</button>
+                <img src="data/images/banner-3.jpg" alt="banner-3.jpg">
             </div>
             <div class="yellowBar">
                 <h1>Wij bouwen oplossingen</h1>
                 <p>Die echt werken...</p>
                 <button>Meer weten?</button>
             </div>
-            <img class="large2" src="data/images/footer.jpg">
+            <img class="large2" src="data/images/footer.jpg" alt="footer.jpg">
             <div class="navbar2">
-                <button>
-                    <img src="data/icons/handshake-regular.svg">
+                <a href="#">
+                    <img src="data/icons/handshake-regular.svg" alt="handshake.svg">
                     <h2>Deals</h2>
                     <p>Bekijk onze deals</p>
-                </button>
-                <button>
-                    <img src="data/icons/toolbox-solid.svg">
+                </a>
+                <a href="services.html">
+                    <img src="data/icons/toolbox-solid.svg" alt="toolbox.svg">
                     <h2>Diensten</h2>
                     <p>Bekijk onze diensten</p>
-                </button>
-                <button>
-                    <img src="data/icons/envelope-regular.svg">
+                </a>
+                <a href="#">
+                    <img src="data/icons/envelope-regular.svg" alt="evelope.svg">
                     <h2>Contact</h2>
                     <p>Stuur een bericht</p>
-                </button>
+                </a>
             </div>
             <hr class="breakline">
             <div class="main-text">

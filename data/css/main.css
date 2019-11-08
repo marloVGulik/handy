@@ -16,6 +16,10 @@ button {
     font-weight: 500;
     transition: all 0.15s;
 }
+a {
+    transition: all 0.15s;
+    text-decoration: none;
+}
 
 .main {
     width: 1000px;
@@ -64,6 +68,8 @@ button {
 .dropdown {
     position: relative;
     display: inline-block;
+    width: 85px;
+    height: 50px;
 }
 .drop {
     font-size: 12px;
@@ -83,12 +89,12 @@ button {
     width: 100%;
     color: #FFFFFF;
 }
-.dropdown:hover .dropContent {
+.dropdown:hover>div {
     font-size: 16px;
     background-color: #222931;
     display: block;
 }
-.dropdown:hover>.dropcontent>button:hover {
+.dropdown:hover>div>button:hover {
     background-color: #ffe718;
 }
 .dropdown:hover .drop {
@@ -190,34 +196,35 @@ button {
     position: absolute;
     top: 1170px;
 }
-.navbar2>button {
+.navbar2>a {
     background-color: #ffe718;
     text-align: left;
+    display: inline-block;
     color: #000000;
     margin: 0 15px;
     width: 300px;
     height: 100px;
 }
-.navbar2>button:hover {
+.navbar2>a:hover {
     background-color: #222931;
     color: #FFFFFF;
 }
-.navbar2>button:hover>img {
+.navbar2>a:hover>img {
     filter: invert(100%);
 }
-.navbar2>button>img {
+.navbar2>a>img {
     float: left;
     margin:  18px 12px;
     width: 64px;
     height: 64px;
 }
-.navbar2>button>h2 {
+.navbar2>a>h2 {
     font-size: 22px;
     line-height: 24px;
     font-weight: 600;
     align-content: initial;
 }
-.navbar2>button>p {
+.navbar2>a>p {
     font-size: 14px;
     line-height: 24px;
     font-weight: 600;
