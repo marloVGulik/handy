@@ -187,7 +187,6 @@ button {
 
 /* Second nav bar */
 .navbar2 {
-    z-index: -10;
     position: absolute;
     top: 1170px;
 }
@@ -360,66 +359,51 @@ button {
     line-height: 18px;
     font-weight: 400;
 }
+.frontText>:nth-child(3)>a {
+    color: #ffe718;
+}
 
 /* Nieuwbouw */
 .DDNieuwbouw {
     position: absolute;
     left: 576px;
-    top: 98px;
-    width: 80px;
-    height: 18px;
-    background-color: #00000000;
-    color: #00000000;
-}
-.DDNieuwbouwText {
+    top: 115px;
     width: 300px;
-    z-index: 100;
-    background-color: #aeb6be00;
-    color: #00000000;
-}
-.DDNieuwbouw:hover>p {
     background-color: #aeb6beFF;
-    color: #000000FF;
+    color: #FFFFFF;
+    display: none;
+    z-index: 100;
+}
+.DDNieuwbouw>p {
+    margin: 5px;
 }
 
 /* Advies */
 .DDAdvies {
     position: absolute;
     left: 820px;
-    top: 265px;
-    width: 55px;
-    height: 18px;
-    background-color: #00000000;
-    color: #00000000;
-}
-.DDAdviesText {
+    top: 285px;
     width: 300px;
-    z-index: 180;
-    background-color: #aeb6be00;
-    color: #00000000;
-}
-.DDAdvies:hover>p {
     background-color: #aeb6beFF;
-    color: #000000FF;
+    color: #FFFFFF;
+    display: none;
+    z-index: 100;
+}
+.DDAdvies>p {
+    margin: 5px;
 }
 
 /* Regelgeving */
 .DDRegelgeving {
     position: absolute;
     left: 408px;
-    top: 290px;
-    width: 80px;
-    height: 18px;
-    background-color: #000000FF;
-    color: #00000000;
+    top: 310px;
+    width: 300px;
+    z-index: 100;
+    background-color: #aeb6beFF;
+    color: #FFFFFF;
+    display: none;
 }
 .DDRegelgevingText {
-    width: 300px;
-    z-index: 180;
-    background-color: #aeb6be00;
-    color: #00000000;
-}
-.DDRegelgeving:hover>p {
-    background-color: #aeb6beFF;
-    color: #000000FF;
+    margin: 5px;
 }
